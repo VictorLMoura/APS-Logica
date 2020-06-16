@@ -1,0 +1,8 @@
+{
+    function _f :: int (float x) :
+        return 100;
+    end;
+
+    str x :: "100"._f(100.0);
+    log(x);
+}

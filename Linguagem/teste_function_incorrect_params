@@ -1,0 +1,11 @@
+{
+    function _func :: str (str y):
+        return y;
+    end;
+
+    str res :: _func("2");
+    log(res);
+
+    str res2 ::  _func(2);
+    log(res);
+}

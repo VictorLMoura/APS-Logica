@@ -1,0 +1,6 @@
+{
+    function _func :: int (int x, str y, float z):
+        log(x.y);
+    end;
+    _func(1, "2", 3.0);
+}

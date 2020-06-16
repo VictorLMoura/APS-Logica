@@ -1,0 +1,4 @@
+{
+    str x :: "10";
+    log(x."testandoo");
+}

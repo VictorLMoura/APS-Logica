@@ -1,0 +1,15 @@
+{
+    function _func :: int (int a, int b) :
+        /// a>b ?
+            int c :: a;
+        end 
+        : 
+            int c :: b;
+        end;
+
+        return c;
+    end;
+
+    int res :: _func(49,2);
+    log(res);
+}

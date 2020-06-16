@@ -1,0 +1,12 @@
+{
+    int x :: 10;
+    /// x>0 ?
+        log(x+20);
+        log(x);
+    end
+    :
+        log(-1);
+        log(-2);
+        log(-3);
+    end;
+}

@@ -1,0 +1,16 @@
+{
+    float x :: 100.0;
+    float y :: 40.0;
+    >>> x > y ?
+        float y :: y + 1;
+        float x :: x - 1.0;
+        log(y);
+        log(x);
+    end;
+    
+    /// x :::: y ?
+        log("Funcionou");
+    end
+    : log("Nao funcionou");
+    end;
+}

@@ -1,0 +1,23 @@
+{
+    int x :: 10;
+    int y :: 1;
+    >>> y<10 ?
+        log(x);
+        int y :: y+1;
+    end;
+
+    :   log("Aqui sao executados como blocos normais");
+    end;
+    
+    :   log("Aqui sao executados como blocos normais");
+    end;
+
+    /// y::::10 ?
+        log(True);
+        log("Aqui a execucao eh condicional");
+    end
+    : 
+        log(False);
+        log("Aqui a execucao eh condicional");
+    end;
+}
